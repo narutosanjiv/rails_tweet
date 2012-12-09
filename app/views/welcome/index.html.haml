@@ -1,0 +1,41 @@
+= stylesheet_link_tag "twitter"
+%div.main-menu
+  %ul
+    %li
+      %input{type: "button", class: 'button twitter-button', value: "Twitter Status"}/
+    %li
+      %input{type: "button", class: 'button drag-button', value: "Draggable"}/
+    %li
+      %input{type: "button", class: 'button canvas-button', value: "Canvas"}/
+
+
+%div.content_for_main_menu
+  .twitter_menu_select
+    .feed_container{:style => "background-color:#0c0cc7;width:250px;height:430px;float:left;"}
+      .twi-wid-heading
+        .twi-wid-heading-main
+          = image_tag "twitter-logo.png", style: "float: left;"
+          %span{:style => "padding-left:4px;"} Twitter Status
+        %div{style: "clear:both"}
+      .twi-wid-content{style: "height: 350px;"}
+      .widget-url
+        .line1
+        .line2
+      
+:javascript
+  $(document).ready(function(){
+    function show_tweet(data){
+      status = data.status
+      var insert_twit_tag = "<div class='twi-wid-entry'>"
+      insert_twit_tag = insert_twit_tag + "<div class='twi-wid-text'>"
+      insert_twit_tag = insert_twit_tag + status
+      insert_twit_tag = insert_twit_tag + "</div>"
+      insert_twit_tag = insert_twit_tag + "</div>"
+      $('.feed_container .twi-wid-content').prepend(insert_twit_tag);
+    }
+
+    var tweet_feed = client.subscribe('/usertweets', function(tweet){
+      console.log(tweet.status)
+      show_tweet(tweet);
+    });
+  });

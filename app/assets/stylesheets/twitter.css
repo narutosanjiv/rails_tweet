@@ -1,0 +1,168 @@
+.feed_container
+ {
+ 	margin:0px !important;
+	padding:0px !important;
+ 	line-height:normal !important;
+	overflow:hidden;
+	width:100%;
+	font-family:"lucida grande",lucida,tahoma,helvetica,arial,sans-serif;
+	font-size:11px;
+	color:#707070;
+	
+	
+ }
+ 
+.twi-wid-heading
+ {
+ 	
+	font-family:"lucida grande",lucida,tahoma,helvetica,arial,sans-serif;
+ 	color:#FFFFFF;
+ 	font-size:14px;
+	text-align:center;
+	margin:0px !important;
+	margin-bottom:5px;
+	padding:4px;
+	height:32px;
+ }
+ 
+.twi-wid-heading-main
+ {
+	margin:0px !important;
+	padding:0px 0px 5px 0px!important;
+ 	font-size:13px;
+ 	font-weight:bold;
+ }
+ 
+ .twi-wid-heading-main img
+ {
+	margin:0px !important;
+	padding:0px !important;
+ 	
+ }
+ 
+.twi-wid-heading-sub
+ {
+
+	margin:0px !important;
+	padding:0px !important;
+ 	font-size:12px;
+ }
+
+.twi-wid-heading-sub a
+ {
+	margin:0px !important;
+	padding:0px !important;
+	color:#FFFFFF;
+ 	font-size:13px;
+ }
+ 
+.twi-wid-content
+ {
+ 	margin:0px !important;
+	padding:0px !important;
+ 	background-color:#FFFFFF;
+ 	
+	overflow:auto;
+	margin-left:2px !important;
+	margin-right:2px !important;
+ }
+ 
+.twi-wid-entry
+ {
+ 	margin:0px !important;
+	padding:0px !important;
+	font-family:"lucida grande",lucida,tahoma,helvetica,arial,sans-serif;
+	
+	font-size:12px;
+	color:#707070;
+	padding-bottom:2px !important;
+	padding-top:2px !important;
+	padding-left:2px !important;
+	font-weight:normal;
+	font-style:normal;
+	line-height:18px;
+	vertical-align:baseline;
+	background-attachment:scroll;
+	border-bottom: 1px dotted #DDDDDD;
+	color:#444444;
+
+
+ }
+ 
+ .twi-wid-avatar
+ {
+ 	margin:0px !important;
+	padding:0px !important;
+ 	float: left;
+    height: 40px;
+    overflow: hidden;
+    width: 40px;
+	
+ }
+ 
+  .twi-wid-text
+ {
+ 	margin:0px !important;
+	padding:0px !important;
+	
+ }
+ 
+.twi-wid-text a{
+	font-family:"lucida grande",lucida,tahoma,helvetica,arial,sans-serif;
+	color:#1985B5;
+	display:inline;
+	text-decoration:none;
+	margin:0px !important;
+	padding:0px !important;
+	line-height:1.2;
+	font-size:13px;
+}
+   
+ .twi-wid-time
+ {
+	font-family:"lucida grande",lucida,tahoma,helvetica,arial,sans-serif;
+	color:#1985B5;
+	text-decoration:none;
+	margin:0px !important;
+	padding:0px !important;
+	font-size:9px;
+	font-style:normal;
+	line-height:1.2;
+ }
+ 
+
+ .twi-wid-avatar img
+ {
+ 	margin:0px !important;
+	padding:0px !important;
+	border:none;
+	height:30px;
+	width:30px;
+
+ }
+ 
+ .widget-url{
+ 	margin:0px !important;
+	padding:0px !important;
+ 	padding-top:4px !important;
+ 	color:#FFFFFF;
+ 	text-align:center;
+ }
+ .widget-url a{
+ 	margin:0px !important;
+	padding:0px !important;
+ 	color:#FFFFFF;
+	font-size:12px;
+	text-decoration:none;
+ }
+ .widget-url .line1{
+ 	margin:0px !important;
+	padding:0px !important;
+ 	font-size:12px;
+ 	padding-bottom:2px !important;
+ }
+ .widget-url .line2{
+ 	margin:0px !important;
+	padding:0px !important;
+ 	font-size:10px;
+ }

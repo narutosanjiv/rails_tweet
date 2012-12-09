@@ -1,0 +1,22 @@
+%html
+  %head
+    = stylesheet_link_tag "application"
+    = javascript_include_tag "application", "http://#{request.host}:9292/faye.js"
+    %script
+      var client = new Faye.Client("http://" + window.location.hostname +":9292/faye");
+
+  %body
+    %header.root-element
+      %nav
+        %ul
+          %li
+            Main Application
+    %div.main-container
+      = yield       
+:javascript
+  $(document).ready(function(){
+    $("#dlg_hello").dialog( { autoOpen: false });
+    $("#btn_hello").button().click(function(){ $("#dlg_hello").dialog("open"); });
+
+
+  });

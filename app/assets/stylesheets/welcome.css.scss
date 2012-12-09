@@ -1,0 +1,58 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body{
+  background: #345;
+ 
+  .main-container{
+    position: fixed;
+    top: 100px; 
+    width: 100%;
+    height: 80%;
+    border: 10px inset #f9;
+    .main-menu{
+      ul{
+        list-style: none;
+        li{
+          .button{
+            border-radius: 37px; 
+            -moz-border-radius: 37px; 
+            -webkit-border-radius: 37px; 
+            border: 2px outset #8F3D5B;
+            padding: 10px;
+            width: 100px;
+            background: -webkit-gradient(linear, left top, left bottom, from(#0a8ffe), to(#2b5cc6));
+            background: -moz-linear-gradient(top, #0a8ffe, #2b5cc6);
+          }
+        }
+      }
+      width: 40%;
+      float: left;
+    } 
+  }
+}
+
+header.root-element{
+  width: 100%;
+  background-color: black;
+  border-right: 10px;
+  float: left;
+  height: 50px;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  color: white;
+  border: 4px inset;
+  box-shadow: 10px 10px 5px #888;
+  margin-bottom: 50px;
+
+  nav > ul
+  {
+    list-style: none;
+  }
+}
+
+div.ui-widget{
+  padding-top: 20px;  
+}
+
